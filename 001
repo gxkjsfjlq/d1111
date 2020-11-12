@@ -1,0 +1,9 @@
+#include<stdio.h>
+void work()
+{
+printf("你好！！晚上还上课的人！！\n");
+}
+void main()
+{
+work();
+}
