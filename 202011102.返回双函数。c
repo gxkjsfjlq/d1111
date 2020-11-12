@@ -1,0 +1,9 @@
+#include<stdio.h>
+int work()
+{
+return(2133);
+}
+int main()
+{
+printf("%d\n",work());
+}
