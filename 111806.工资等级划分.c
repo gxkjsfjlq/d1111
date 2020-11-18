@@ -4,7 +4,7 @@ int main()
 int x;
 printf("【打工人工资等级划分】\n");
 scanf("%d\n",&x);
-if(x<-1)
+if(x<=-1)
 {
 printf("你还有花呗没还，无法使用该程序。\n");
 }
