@@ -4,7 +4,6 @@ int main()
 int x;
 printf("【打工人工资等级划分】\n");
 scanf("%d\n",&x);
-
 if(x<-1)
 {
 printf("你还有花呗没还，无法使用该程序。\n");
@@ -31,7 +30,7 @@ printf("水电工工资\n");
 }
 else if(x>=12000&&x<=50000)
 {
-printf("脑袋大脖子粗不是老板就是伙夫\n");
+printf("脑袋大脖子粗不是老板就是阔富\n");
 }
 else
 {
