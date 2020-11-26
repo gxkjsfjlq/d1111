@@ -2,6 +2,6 @@
 void main()
 {
 double x;
-scanf("%1f",&x);
+scanf("%lf",&x);
 printf("%.3f\n",x);
 }
