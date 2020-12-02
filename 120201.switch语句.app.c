@@ -27,3 +27,5 @@ switch(x)
   case 19:printf(" 洛桑联邦理工大学\n");break;
   case 20:printf("       爱丁堡大学\n");break;
 default:printf("请输入1-20");
+}
+}
