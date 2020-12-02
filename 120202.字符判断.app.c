@@ -3,7 +3,7 @@
 void main()
 {
 char x;
-printf("  欢迎使用本程序\n");
+printf("#######欢迎使用本程序#######\n");
 scanf("%c",&x);
 switch(x)
 {
