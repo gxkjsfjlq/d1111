@@ -15,7 +15,7 @@ for(a=0;a<3;a++)
 	{
 		printf("%d ",y[a][b]);
 		}
-			printf("\n",y[a][b]);	
+			printf("\n");	
 
 				}
 
