@@ -2,8 +2,30 @@
 #include<string.h>
 void main()
 {
-char x1[50];
 printf("   吃货的日程总是被安排的明明白白ヽ(￣ω￣(￣ω￣〃)ゝ请问现在是什么节;)\n");
-scanf("%s",&x1);
-printf("%s\n",x1);
+while(1)
+{
+char x[50];
+char a[]="春节";
+char b[]="端午节";
+char c[]="中秋节";
+char d[]="元宵节";
+scanf("%s",&x);
+if(strcmp(x,a)==0)
+{
+printf("给我安排饺子\n");
+}
+else if(strcmp(x,b)==0)
+{
+printf("给我安排粽子\n");
+}
+else if(strcmp(x,c)==0)
+{
+printf("给我安排月饼\n");
+}
+else 
+{
+printf("给我安排元宵\n");
+}
+}
 }
